@@ -1,12 +1,11 @@
 #include <vector>
 #include <string>
 
-//×Ö·û´®·Ö¸îº¯Êý
 std::vector<std::string> split(std::string str, std::string pattern)
 {
 	std::string::size_type pos;
 	std::vector<std::string> result;
-	str += pattern;//À©Õ¹×Ö·û´®ÒÔ·½±ã²Ù×÷
+	str += pattern;
 	int size = str.size();
 
 	for (int i = 0; i<size; i++)
